@@ -14,9 +14,9 @@ selenium-server.log
 # IDEs and editors
 /.idea
 #.project
-#.classpath
+.classpath
 *.launch
-#.settings/
+.settings/
 
 # System Files
 .DS_Store

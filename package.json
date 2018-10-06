@@ -5,7 +5,7 @@
   "author": "Emmanuel Vilsbol <emmanuel@vilsbol.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "node build/dev-server.js  ",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
@@ -19,6 +19,7 @@
     "axios": "^0.18.0",
     "date-fns": "^1.29.0",
     "marked": "^0.3.19",
+    "set-default-browser": "^1.0.1",
     "vue": "^2.5.16",
     "vue-axios": "^2.1.1",
     "vue-router": "^3.0.1",
