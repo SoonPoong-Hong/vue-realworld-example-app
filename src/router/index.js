@@ -27,6 +27,11 @@ export default new Router({
       ]
     },
     {
+      name: 'hong',
+      path: '/hong',
+      component: () => import('@/views/Hong')
+    },
+    {
       name: 'login',
       path: '/login',
       component: () => import('@/views/Login')

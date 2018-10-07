@@ -6,6 +6,7 @@
         conduit
       </router-link>
       <ul v-if="!isAuthenticated" class="nav navbar-nav pull-xs-right">
+        <li>not authenticated</li>
         <li class="nav-item">
           <router-link class="nav-link"
             active-class="active"
@@ -33,6 +34,7 @@
         </li>
       </ul>
       <ul v-else class="nav navbar-nav pull-xs-right">
+        <li class="nav-item"> authenticated !!</li>
         <li class="nav-item">
           <router-link
             class="nav-link"
@@ -66,6 +68,21 @@
           </router-link>
         </li>
       </ul>
+      <ul class="nav navbar-nav pull-xs-right">
+        <router-link class="nav-link"
+          active-class="active"
+          exact
+          :to="{ name: 'hong', params: { username: currentUser.username } }">
+          홍
+        </router-link>
+        <router-link class="nav-link"
+          active-class="active"
+          exact
+          :to="{ name: 'hong', params: { username: currentUser.username } }">
+          홍 222
+        </router-link>
+      </ul>
+
     </div>
   </nav>
 </template>

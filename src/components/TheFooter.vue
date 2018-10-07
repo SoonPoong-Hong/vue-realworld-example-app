@@ -4,7 +4,7 @@
       <router-link class="logo-font"
         :to="{ name: 'home', params: {} }">
         conduit
-      </router-link>
+      </router-link> | 
       <router-link class="logo-font"
         to="{ name: 'home', params: {} }">
         conduit 2
