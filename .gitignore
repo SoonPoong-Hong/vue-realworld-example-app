@@ -13,7 +13,7 @@ selenium-server.log
 
 # IDEs and editors
 /.idea
-#.project
+.project
 .classpath
 *.launch
 .settings/
